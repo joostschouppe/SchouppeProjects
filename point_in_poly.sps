@@ -6,6 +6,8 @@
 gebaseerd op http://rexdouglass.com/fast-spatial-joins-in-python-with-a-spatial-index/.
 
 * definieer programma.
+* opmerking: het programma haalt de TWEEDE zinvolle kolom op, maar is mij niet geheel duidelijk waar dat exact bepaald wordt.
+
 BEGIN PROGRAM Python.
 # Building a function to assign a point to a polygon
 # dit vereist dat je SPSS versie een Python versie heeft die shapefile, rtree en shapely kent
