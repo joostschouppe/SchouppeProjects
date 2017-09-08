@@ -18,3 +18,8 @@ Eens geïnstalleerd, voer volgende commando uit in de Anaconda prompt:
 conda install -c ioos shapely rtree pyshp
 
 Je vindt in deze repository een voorbeeldscript.
+
+## Bronnen
+
+Het script is van https://andrewpwheeler.wordpress.com/2016/12/09/spatial-join-points-to-polygons-using-python-and-spss/ , 
+gebaseerd op http://rexdouglass.com/fast-spatial-joins-in-python-with-a-spatial-index/ en verbeterd met hulp van [@warrieka](https://github.com/warrieka)
