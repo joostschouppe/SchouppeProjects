@@ -14,8 +14,9 @@ Zoals je ziet vraagt SPSS naar een versie 2.7 van Python. Kies dus voor een Anac
 
 Het kan geen kwaad als je meerdere Python versies op je PC hebt, zoals die van SPSS, die van ArcGIS,... 
 
-Eens geïnstalleerd, voer volgende commando uit in de Anaconda prompt:
-conda install -c ioos shapely rtree pyshp
+Eens geïnstalleerd, voer volgende commando uit in de Anaconda prompt (een van de programma's binnen het Anaconda pakket):
+
+```conda install -c ioos shapely rtree pyshp```
 
 Je vindt in deze repository een voorbeeldscript.
 
