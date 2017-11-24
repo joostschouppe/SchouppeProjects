@@ -7,18 +7,16 @@ Deze methode doet op een trager PC zo’n 100.000 records per minuut.
 
 Je vindt in deze map een voorbeeld waarbij een bestand wordt verrijkt met sector_gesplitst. In het script wordt alles stap voor stap uitgelegd.
 
-Dit voorbeeld zal enkel werken indien je Python versie over een aantal libraries beschikt die nodig zijn. 
- 
-Dit script werkt als je Anaconda installeert, en de “Python location” daarnaar laat verwijzen. Ga daarvoor naar Edit>Options>File Locations>Python (2.7) Location.
-Zoals je ziet vraagt SPSS naar een versie 2.7 van Python. Kies dus voor een Anaconda versie met Python 2.7 (https://www.continuum.io/downloads). Bij installeren heb je mogelijk admin rechten nodig. Als je “Installeren alleen voor jou”  kiest, dan moet je in SPSS verwijzen naar een locatie als C:\Users\[jouw unieke naam]\AppData\Local\Continuum\Anaconda2.
+Dit voorbeeld zal enkel werken indien je Python versie over een aantal libraries beschikt die nodig zijn. Het kan geen kwaad als je meerdere Python versies op je PC hebt, zoals die van SPSS, die van ArcGIS,... Er zijn verschillende mogelijkheden om het aan de praat te krijgen. Dit werkte voor mij:
 
-Het kan geen kwaad als je meerdere Python versies op je PC hebt, zoals die van SPSS, die van ArcGIS,... 
-
-Eens geïnstalleerd, voer volgende commando uit in de Anaconda prompt (een van de programma's binnen het Anaconda pakket):
+* Installeer Anaconda 2.7 (https://www.continuum.io/downloads)
+* Eens geïnstalleerd, voer volgende commando uit in de "Anaconda prompt" (een van de programma's binnen het Anaconda pakket):
 
 ```conda install -c ioos shapely rtree pyshp```
 
-Je vindt in deze repository een voorbeeldscript.
+* Open SPSS en pas de Python Location aan. Ga daarvoor naar Edit>Options>File Locations>Python (2.7) Location. Verwijs naar een locatie als C:\Users\[jouw unieke naam]\AppData\Local\Continuum\Anaconda2 
+
+Je vindt in deze repository ook een voorbeeldscript.
 
 ## Bronnen
 
