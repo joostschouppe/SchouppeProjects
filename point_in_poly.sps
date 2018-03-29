@@ -39,7 +39,7 @@ idx = index.Index()
 c_id = 0
 area_match = []
 for a,b in zip(bg_shapes,bg_records):
-    area_match.append(b[1])
+    area_match.append(b[1]) #you can set the column that should be joined from the attribute table with this number#
     idx.insert(c_id,a.bbox,obj=b[1])
     c_id += 1
 
